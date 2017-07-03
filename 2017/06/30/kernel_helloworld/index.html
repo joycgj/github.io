@@ -26,7 +26,7 @@
 <p>(5) 模块导出符号(可选): 内核模块可以导出符号(symbol,对应于函数或变量)，这样其他模块可以使用本模块中的变量或函数。 </p>
 <p>(6) 模块作者等信息声明(可选)。</p>
 <p>一个内核模块至少包含两个函数，模块被加载时执行的初始化函数init_module()和模块被卸载时执行的结束函数cleanup_module()。在最新内核稳定版本2.6中，两个函数可以起任意的名字，通过宏module_init()和module_exit()注册调用要编译内核模块，把代码嵌进内核空间，首先要获取内核源代码，且版本必需与当前正在运行的版本一致。</p>
-<p>(参考原文)(<a href="http://blog.csdn.net/sh21_/article/details/60878812" target="_blank" rel="external">http://blog.csdn.net/sh21_/article/details/60878812</a>)</p>
+<p><a href="http://blog.csdn.net/sh21_/article/details/60878812" target="_blank" rel="external">参考原文</a></p>
 <p>要想扩展Linux内核的功能，可通过如下两种方法：</p>
 <ol>
 <li>直接修改Linux内核源码，然后自行编译Linux内核源码；</li>
